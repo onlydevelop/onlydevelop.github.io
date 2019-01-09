@@ -122,6 +122,46 @@ p.sub-text {
   text-align: center;
 }
 
+.left-text {
+  text-align: left;
+}
+
+.section-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #444444
+}
+
+.section-text {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0 0 20px 0;
+}
+
+.subsection-head {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 0 0 0;
+  color: #666666
+}
+
+.subsection-subhead {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 8px 0 0 0;
+}
+
+.subsection-text {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 8px 0 8px 0;
+}
+
 .columns:after {
   content: "";
   display: table;
@@ -139,8 +179,15 @@ p.sub-text {
 
 .column.third {
   width: 33%;
-  padding: 0 20px;
-  text-align: center;
+  padding: 10px 10px;
+  text-align: left;
+  background: #EDEDED;
+}
+
+.column.twothird {
+  width: 66%;
+  padding: 10px 10px;
+  text-align: left;
 }
 
 .column.half {
@@ -189,8 +236,8 @@ p.sub-text {
 }
 
 hr {
-  border: 1px solid #eee;
-  margin: 60px 0;
+  border: 1px solid #BBB;
+  /* margin: 60px 0; */
 }
 
 textarea,
