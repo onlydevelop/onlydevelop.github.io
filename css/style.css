@@ -47,6 +47,15 @@ div.small-container {
 
 div.container {
   max-width: 940px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 940px) {
+  div.container {
+    max-width: 100%;
+    padding: 0 5%;
+  }
 }
 
 div.small-container {
